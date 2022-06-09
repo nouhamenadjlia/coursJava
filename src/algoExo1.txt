@@ -1,0 +1,68 @@
+E1.
+déclarer la variables age(byte)
+--Test condition
+si age >= 7  et age <= 9 alors
+    on affiche « vous etes un poussin »
+si age >= 10  et age <= 11 alors
+    on affiche « vous etes un pupille »
+si age >= 12  et age <= 13 alors
+    on affiche « vous etes un bengamin»
+si age >= 14  et age <= 15 alors
+    on affiche « vous etes un minime»
+si age >= 16  et age <= 17 alors
+    on affiche « vous etes un cadet»
+
+
+
+
+E2.
+Ecrire un programme Java qui demande à l'utilisateur de saisir la valeur du diamètre, et qui ensuite va effectuer le calcul de la surface.
+--1.declarer des variabales:
+    -Diametre
+    -PI
+--2.calculer el rayon:
+    Rayon = Diametre / 2;
+--3.calculer la surface
+    Surface = Rayon *Rayon * PI;
+--4.afficher le resultat de la variable surface
+    
+
+
+E3.
+--1.recupere nom, prenom et age :
+* imporeter le module scanner de java qui permet de recuperer les information demander à lutilisateur
+*stocker les informations recuperer d'e lutilisateur dans des variables
+--2.afficher le message : 
+"Vous vous appelez <prenom> <nom>, et vous avez <age> ans"
+
+E4.
+--1.declarer les variabales a,b,c ou:
+
+Ecrire un programme Java qui déclare 3 variables, a,b,c et qui va ensuite effectuer une permutation de ces valeurs :
+Entrez la première valeur(a) : 51
+Entrez la deuxième valeur(b) : 876
+Entrez la troisième valeur(c) : 235
+
+--2.crer une variable intermediére d.
+--3.effectuer une permutation des avleurs des variabales
+d=a;
+a=c;
+c=b;
+b=d;
+--4.afficher le resultat
+
+E5.
+--1.recupere  age de l'utilisateur :
+* imporeter le package scanner de java qui permet de recuperer les information demander à lutilisateur
+*stocker les informations recuperer d'e lutilisateur dans des variables
+
+--2.declarer la variable naissance et lui assignier un calcul pour determiner l'année de naissance
+
+ naissance = 2022-age
+      afficher le resultat:("votre annee de naissance est "+naissance);
+--3* conditions:
+si age>0 alors
+    on affiche « votre annee de naissance est "+naissance»
+    si non :
+     on affiche « "la valeur entrée n'es pas prise en charge "»
+
