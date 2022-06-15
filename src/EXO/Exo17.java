@@ -11,5 +11,18 @@ public class Exo17 {
         saisie = saisieB.reverse().toString();
         System.out.println(saisie);
 
+
+//        System.out.println("Veuillez saisir du texte : ");
+//
+//        var text = input.nextLine();
+//
+//        var newText = "";
+//
+//        for (int i = text.length()-1 ; i >= 0 ; i--)
+//        {
+//            newText = newText + text.charAt(i);
+//        }
+//        System.out.printf("Le texte inverse est : %s", newText);
+
     }
 }

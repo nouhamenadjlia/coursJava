@@ -8,6 +8,9 @@ public class FonctionMath {
         //Elever 25 a la puissance 3
         System.out.println(Math.pow(nombre2,3));
         System.out.println(Math.min(3,7));
+        /* renvoie le minimum de deux nombres. Les arguments sont pris en int, double,
+         float et long. Si un nombre négatif et un nombre positif sont passés en argument,
+          le résultat négatif est généré.*/
         System.out.println(Math.PI);
     }
 }
