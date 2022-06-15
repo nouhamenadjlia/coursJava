@@ -39,5 +39,6 @@ public class HashTable {
         System.out.println(occurenceLettres);
         System.out.println("Occurence de s : "+occurenceLettres.get('s'));
 
+
     }
 }

@@ -1,4 +1,4 @@
-package poo;
+package POO.ExoPoo;
 
 public class Exo24 {
     /*TP 24.
