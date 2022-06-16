@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 
 public class Exo19 {
@@ -7,10 +9,9 @@ public class Exo19 {
         Scanner input=new Scanner(System.in);
 
         System.out.print("veilliez remplir le matrice : \n");
-        int nombreDelignes =4;
-        int nombreDeColonne=4;
+       int[][] matrice=new int[4 ][4];
         int somme =0;
-        int[][] matrice=new int[nombreDelignes ][nombreDeColonne];
+
         for(int i=0;i<matrice.length;i++){
 
             for(int j=0;j<matrice[i].length;j++){
@@ -22,7 +23,17 @@ public class Exo19 {
             }
 
         }
-        System.out.println("la somme est :"+somme);
+
+        System.out.println("Affichage de tout le tableau");
+        for (int i = 0; i < matrice.length; i++) {
+            for (int j = 0; j < matrice[i].length; j++) {
+                System.out.print(matrice[i][j] +" / ");
+            }
+            System.out.println();
+        }
+
+        System.out.printf("La somme de la premiere diagonale est  : %d .",somme);
 
     }
+
 }

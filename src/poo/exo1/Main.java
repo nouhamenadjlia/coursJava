@@ -42,6 +42,7 @@ public class Main {
 //
 //        System.out.println("Vous "+(personne.married?"etes marie":"n'etes pas marie")
 //                +" et vous avez " +personne.numberChildren +" enfant.");
+
      Personne personne=new Personne("nouha", "menadjlia", "france", true, (byte) 0);
         System.out.println("veuillez remplir vos informations:");
         System.out.println("firstName: ");

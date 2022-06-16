@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
@@ -23,7 +25,7 @@ public class Exo23 {
         var day = "";
         var number = 0;
 
-        for (int i = 0; i <= 6 ; i++)
+        for (int i = 0; i <= 7 ; i++)
         {
             System.out.println("Veuillez entrer un jour de la semaine : ");
 
@@ -32,7 +34,7 @@ public class Exo23 {
             days.add(day);
         }
 
-        for (int i = 0; i <= 6 ; i++)
+        for (int i = 0; i <= 7 ; i++)
         {
             System.out.printf
                     ("Veuillez entrer le numero correspondant a %s (entre 1 et 7) : ",days.get(i));

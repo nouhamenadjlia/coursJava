@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 
 public class Exo18 {

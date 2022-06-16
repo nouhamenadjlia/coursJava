@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 public class Exo4 {
     public static void main(String[] args) {
         int a = 51;

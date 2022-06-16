@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 public class Exo2 {
     public static void main(String[] args) {
         float Diametre = 15.26F;

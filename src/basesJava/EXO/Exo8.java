@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 public class Exo8 {
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class Exo8 {
         int nombreEntier=input.nextInt();
 
 
-        if(nombreEntier>=1 & nombreEntier <=12){
+        if(nombreEntier >= 1 && nombreEntier <= 12){
             switch (nombreEntier) {
                 case 1:
                     System.out.println("Janvier");

@@ -1,4 +1,4 @@
-package EXO;
+package basesJava.EXO;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Exo21V2 {
         System.out.print("Combien de langages souhaitez-vous ajouter?");
         int nombreDeLangages=input.nextInt();
 
-        input.nextLine();
+//        input.nextLine();
         HashMap<String,String> langages=new HashMap<>();
         for(int i=1;i<=nombreDeLangages;i++){
             if(i==1){

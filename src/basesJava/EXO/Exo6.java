@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 public class Exo6 {
     public static void main(String[] args) {
@@ -6,11 +8,11 @@ public class Exo6 {
         int nombreEntier=input.nextInt();
 //        System.out.println(nombreEntier);
 
-        if(nombreEntier>0 & nombreEntier% 2 ==0 || nombreEntier ==0 ){
+        if(nombreEntier>0 && nombreEntier% 2 ==0 || nombreEntier ==0 ){
             System.out.println("Le nombre est positif et pair.");
-        } else if (nombreEntier>0 &nombreEntier% 2 !=0 ) {
+        } else if (nombreEntier>0 && nombreEntier% 2 !=0 ) {
             System.out.println("Le nombre est positif et impair.");
-        }else if (nombreEntier<0 &nombreEntier% 2 == 0) {
+        }else if (nombreEntier<0 && nombreEntier% 2 == 0) {
             System.out.println("Le nombre est negatif et pair.");
         }else{
             System.err.println("Le nombre entrer n'est pas un nombre entier");

@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -20,12 +22,13 @@ public class Exo21 {
 
         }
         System.out.println(langagesDeProgrammation);
-        System.out.println("Veuillez entrer le nom du programme à supprimer:");
+
+        System.out.println("Veuillez entrer le nom du programme a supprimer:");
         for(int i = 0; i<=langagesDeProgrammationSize; i++){
             var programmeDelete = input.nextLine();
-            if(programmeDelete.contains(programmeDelete)){
+            if(langagesDeProgrammation.contains(programmeDelete)){
             langagesDeProgrammation.remove(programmeDelete);
-                System.out.println("l'element a bien ete supprimer");
+                System.out.println("l'element"+ "'"+programmeDelete+"'"+"a bien ete supprimer");
             System.out.println(langagesDeProgrammation);
             }else {
                 System.out.println("language entrer non valide");

@@ -4,11 +4,16 @@ public class Rectangle3 {
     private double longueur;
     private double largeur;
 
-
-
+    // Surchage : La possiblité d'avoir au sein d'une classe plusieurs méthodes
+    // Avec le même nom, mais différentes signatures
     public Rectangle3(double longueur,double largeur){
         this.longueur=longueur;
         this.largeur=largeur;
+    }
+
+    public Rectangle3(){
+        longueur=10;
+        largeur=5;
     }
 
     public double getLongueur(){
@@ -35,4 +40,5 @@ public class Rectangle3 {
     double calculDuPerimetre(){
         return 2*(longueur+largeur);
     }
+
 }

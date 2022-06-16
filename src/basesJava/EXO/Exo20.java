@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 
 public class Exo20 {
@@ -7,11 +9,9 @@ public class Exo20 {
         Scanner input=new Scanner(System.in);
 
         System.out.print("veilliez remplir le matrice : \n");
-        int nombreDelignes =4;
-        int nombreDeColonne=4;
         int somme =0;
         int somme2 =0;
-        int[][] matrice=new int[nombreDelignes ][nombreDeColonne];
+        int[][] matrice=new int[4 ][4];
         for(int i=0;i<matrice.length;i++){
 
             for(int j=0;j<matrice[i].length;j++){

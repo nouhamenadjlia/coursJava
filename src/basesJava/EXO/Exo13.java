@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 public class Exo13 {
     public static void main(String[] args) {
@@ -32,13 +34,11 @@ public class Exo13 {
             emailATester = input.nextLine();
             System.out.println("code PIN : ");
             codeATester = input.nextLine();
-            if(codeATester.equals(codePIN) & emailATester.equals(email)){
+            if(codeATester.equals(codePIN) && emailATester.equals(email)){
                 System.out.println("Bienvenu dans votre espace client");
             }else{
                 System.out.println("identifiants errone.Veuillez recommencer");
             }
         }
-
-
     }
 }

@@ -12,7 +12,7 @@ public class Personne {
         On doit avoir une méthode qui retourne un string nomComplet
         Dans le main, vous devez à partir du clavier demander à l'utilisateur de fournir toutes ces données et
         enfin les afficher dans main.*/
-    String firstName;
+    public String firstName;
     public String lastName;
     public String pays;
     public boolean etesMarrier;

@@ -1,3 +1,5 @@
+package basesJava.EXO;
+
 import java.util.Scanner;
 import java.util.regex.*;
 
@@ -32,7 +34,7 @@ public class Exo15 {
         int tantativeCodePin =5 ;
 
 
-        for (  int i =5; i >0 ; i--){
+        for ( int i = tantativeCodePin; i >0 ; i--){
             while (!codeATester.equals(codePIN) || !emailATester.equals(email) ) {
                 System.out.print("Entrez votre email et code PIN pour deverouiller l'appareil : \n");
                 System.out.println("email: ");
@@ -40,7 +42,7 @@ public class Exo15 {
                 System.out.println("code PIN : ");
                 codeATester = input.nextLine();
 
-                if(codeATester.equals(codePIN) & emailATester.equals(email) & i > 0 ){
+                if(codeATester.equals(codePIN) && emailATester.equals(email) && i > 0 ){
                     System.out.println("Bienvenu dans votre espace client");
                     break;
                 }else if (i == 0){
